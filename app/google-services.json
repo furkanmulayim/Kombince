@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1057849639266",
+    "project_id": "kombince-26886",
+    "storage_bucket": "kombince-26886.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057849639266:android:28c435879a4adaf80fec3b",
+        "android_client_info": {
+          "package_name": "com.example.kombince"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057849639266-cjnr2norubpdm28kf92ffehf14bd2dog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kombince",
+            "certificate_hash": "2fe37a7230e93dfc01805105422b2c85953b0fc0"
+          }
+        },
+        {
+          "client_id": "1057849639266-rlv9o6mnnrn0mvirjq5p0loqnpoc96ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8WK4zn37QQNh1nwmpnYqjo56V72n9Tfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057849639266-rlv9o6mnnrn0mvirjq5p0loqnpoc96ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

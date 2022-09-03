@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/dashBoardFragment2"
+        android:name="com.example.kombince.view.fragmentview.DashBoardFragment"
+        android:label="fragment_dash"
+        tools:layout="@layout/fragment_dash" />
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.kombince.view.fragmentview.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" >
+        <argument
+            android:name="FileName"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/heartFragment"
+        android:name="com.example.kombince.view.fragmentview.HeartFragment"
+        android:label="fragment_heart"
+        tools:layout="@layout/fragment_heart" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.kombince.view.fragmentview.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <dialog
+        android:id="@+id/postSheetFragment"
+        android:name="com.example.kombince.view.fragmentview.PostSheetFragment"
+        android:label="fragment_post_sheet"
+        tools:layout="@layout/fragment_post_sheet" >
+        <action
+            android:id="@+id/action_postSheetFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+        <argument
+            android:name="FileName"
+            app:argType="string"
+            app:nullable="true"/>
+    </dialog>
+</navigation>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kombince</string>
+
+    <string name="sign_aciklama">Kombinizi Tek Başınıza Seçerken Sorun Mu Yaşıyorsunuz?</string>
+    <string name="sign_button_text">Kombinimi Seç</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
